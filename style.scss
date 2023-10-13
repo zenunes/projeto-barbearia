@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+@import "partils/color";
+@import "partils/header";
+@import "partils/layout";
+
+body{
+    font-family: 'Sora', sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+
+    background-color: $secundary-normal;
+}
+button{
+    font-family: 'Sora', sans-serif;
+    cursor: pointer;
+}
+svg{
+    width: 100%;
+}
+img{
+    width: 100%; // faz a imagem se adaptar, ficar responsiva
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
